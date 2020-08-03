@@ -16,9 +16,8 @@ jobs:
     strategy:
       matrix:
         perl-version:
-          - '5.8'
-          - '5.10'
-          - '5.16'
+          - '5.16' # Mojo won't settle for less
+          - '5.24'
           - 'latest'
           - 'threaded'
 
